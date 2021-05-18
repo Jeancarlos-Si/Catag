@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    --branca: #ffffff;
+    --azul: #bbe6f9;
+    --preto:#000000;
+    --azulEscuro: rgba(18,10,143,0.8)
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y:hidden;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: var(--azul);
+}
+
+.content{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;  
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.negritoBrand{
+    font-size: 24px;
+    color: var(--azulEscuro);
+    cursor: pointer;
+}
+
+opcoes{
+  background: red;
+}
+nav ul {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    
+    list-style: none;
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+    color: var(--preto);
+}
+
+nav ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: var(--azulEscuro);
+}
+
+nav ul li:hover {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+  color: var(--azulEscuro);
+}
+
+nav ul li a:hover{
+list-style: none;
+text-decoration: none;
+color: var(--azul);
+}
+
+
+
